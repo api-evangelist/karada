@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Karada AI is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://karada.ai/
+Karada AI provides an infrastructure platform that turns APIs into Go MCP (Model Context Protocol) servers with one‑click plugins and gateways. It offers tools to auto‑compile APIs into MCP servers, keep them in sync via CI/CD, and publish to a registry for use across AI assistants like Claude, Cursor, and others. The platform includes a free starter tier, detailed documentation, pricing plans, a blog, and community support via Discord.
+
+**Areas:** Company · AI · Platform · MCP · Automation
+
+## Karada AI on APIs.io
+
+Everything profiled for Karada AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/karada/](https://apis.io/providers/karada/)** — or go straight to one of the APIs or properties below.
+
+### APIs (15)
+
+- [Karada AI Admin API](https://apis.io/apis/karada/karada-admin-api/) — The admin API from Karada AI — 9 operation(s) for admin.
+- [Karada AI Auth API](https://apis.io/apis/karada/karada-auth-api/) — The auth API from Karada AI — 4 operation(s) for auth.
+- [Karada AI Billing API](https://apis.io/apis/karada/karada-billing-api/) — The billing API from Karada AI — 10 operation(s) for billing.
+- [Karada AI Deployments API](https://apis.io/apis/karada/karada-deployments-api/) — The deployments API from Karada AI — 5 operation(s) for deployments.
+- [Karada AI Feedback API](https://apis.io/apis/karada/karada-feedback-api/) — The feedback API from Karada AI — 1 operation(s) for feedback.
+- [Karada AI Gateway API](https://apis.io/apis/karada/karada-gateway-api/) — The gateway API from Karada AI — 11 operation(s) for gateway.
+- [Karada AI Marketplace API](https://apis.io/apis/karada/karada-marketplace-api/) — The marketplace API from Karada AI — 5 operation(s) for marketplace.
+- [Karada AI MCP API](https://apis.io/apis/karada/karada-mcp-api/) — The mcp API from Karada AI — 2 operation(s) for mcp.
+- [Karada AI Newsletter API](https://apis.io/apis/karada/karada-newsletter-api/) — The newsletter API from Karada AI — 1 operation(s) for newsletter.
+- [Karada AI Pricing API](https://apis.io/apis/karada/karada-pricing-api/) — The pricing API from Karada AI — 1 operation(s) for pricing.
+- [Karada AI Projects API](https://apis.io/apis/karada/karada-projects-api/) — The projects API from Karada AI — 6 operation(s) for projects.
+- [Karada AI Registry API](https://apis.io/apis/karada/karada-registry-api/) — The registry API from Karada AI — 4 operation(s) for registry.
+- [Karada AI System API](https://apis.io/apis/karada/karada-system-api/) — The system API from Karada AI — 1 operation(s) for system.
+- [Karada AI Teams API](https://apis.io/apis/karada/karada-teams-api/) — The teams API from Karada AI — 2 operation(s) for teams.
+- [Karada AI User API](https://apis.io/apis/karada/karada-user-api/) — The user API from Karada AI — 1 operation(s) for user.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Karada Agentic Access](https://apis.io/agentic-access/karada/karada-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Karada AI API Rules](https://apis.io/rules/karada/karada-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Karada Authentication](https://apis.io/security/karada/karada-authentication/)
+- [Karada Domain Security](https://apis.io/security/karada/karada-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Karada Plans Pricing](https://apis.io/plans/karada/karada-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://karada.ai/)
+- [Documentation](https://docs.karada.ai/)
+- [Getting started](https://docs.karada.ai/quickstart)
+- [API reference](https://docs.karada.ai/playbooks/stripe-api-to-mcp.md)
+- [Pricing](https://karada.ai/pricing)
+- [Support](https://karada.ai/help)
+- [Blog](https://karada.ai/blog)
+- [Terms of service](https://karada.ai/terms)
+- [Privacy policy](https://karada.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 51.6** — developing · rubric 0.24.0 · scored 2026-10-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 36.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 56.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/karada/](https://apis.io/providers/karada/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Karada AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/karada/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
